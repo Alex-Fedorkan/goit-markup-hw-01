@@ -8,23 +8,23 @@
   </head>
   <body>
     <header>
-      <a href="/">Web Studio</a>
-      <ul>
-        <li><a href="">Студия</a></li>
-        <li><a href="">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
-      </ul>
-      <address>
+      <nav>
+        <a href="./index.html">Web Studio</a>
         <ul>
-          <li>
-            <img src="./images/mail.svg" alt="Иконка письма" />
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <img src="./images/phone.svg" alt="Иконка телефона" />
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
+          <li><a href="">Студия</a></li>
+          <li><a href="">Портфолио</a></li>
+          <li><a href="">Контакты</a></li>
         </ul>
+      </nav>
+      <address>
+        <a href="mailto:info@devstudio.com" aria-label="Написать письмо">
+          <object data="./images/mail.svg" type="image/svg+xml"></object>
+          info@devstudio.com
+        </a>
+        <a href="tel:+380961111111" aria-label="Позвонить">
+          <object data="./images/phone.svg" type="image/svg+xml"></object>
+          +38 096 111 11 11
+        </a>
       </address>
     </header>
     <main>
@@ -38,7 +38,11 @@
         <h2>Наши преимущества</h2>
         <ul>
           <li>
-            <img src="./images/antenna.svg" alt="Иконка спутниковой антенны" />
+            <object
+              data="./images/antenna.svg"
+              type="image/svg+xml"
+              aria-label="Иконка спутниковой антенны"
+            ></object>
             <h3>Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
@@ -46,7 +50,11 @@
             </p>
           </li>
           <li>
-            <img src="./images/clock.svg" alt="Иконка часов" />
+            <object
+              data="./images/clock.svg"
+              type="image/svg+xml"
+              aria-label="Иконка часов"
+            ></object>
             <h3>Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
@@ -54,10 +62,11 @@
             </p>
           </li>
           <li>
-            <img
-              src="./images/diagram.svg"
-              alt="Иконка монитора с диаграммой"
-            />
+            <object
+              data="./images/diagram.svg"
+              type="image/svg+xml"
+              aria-label="Иконка монитора с диаграммой"
+            ></object>
             <h3>Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
@@ -65,10 +74,11 @@
             </p>
           </li>
           <li>
-            <img
-              src="./images/astronaut.svg"
-              alt="Иконка астронавка со звездами"
-            />
+            <object
+              data="./images/astronaut.svg"
+              type="image/svg+xml"
+              aria-label="Иконка астронавка со звездами"
+            ></object>
             <h3>Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
@@ -82,15 +92,21 @@
         <h2>Чем мы занимаемся</h2>
         <ul>
           <li>
-            <a href=""><img src="./images/notebook.jpg" alt="Ноутбук" /></a>
+            <a href="">
+              <img src="./images/notebook.jpg" alt="Ноутбук" width="380" />
+            </a>
             <h3><a href="">Десктопные приложения</a></h3>
           </li>
           <li>
-            <a href=""><img src="./images/smartphone.jpg" alt="Смартфон" /></a>
+            <a href="">
+              <img src="./images/smartphone.jpg" alt="Смартфон" width="380" />
+            </a>
             <h3><a href="">Мобильные приложения</a></h3>
           </li>
           <li>
-            <a href=""><img src="./images/monitor.jpg" alt="Монитор" /></a>
+            <a href="">
+              <img src="./images/monitor.jpg" alt="Монитор" width="380" />
+            </a>
             <h3><a href="">Дизайнерские решения</a></h3>
           </li>
         </ul>
@@ -100,29 +116,33 @@
         <h2>Наша команда</h2>
         <ul>
           <li>
-            <img src="./images/john-smith.jpg" alt="Фотография John Smith" />
+            <img
+              src="./images/john-smith.jpg"
+              alt="Фотография John Smith"
+              width="278"
+            />
             <h3>John Smith</h3>
             <p>Product Designer</p>
             <ul>
               <li>
-                <a href="https://www.instagram.com/"
-                  ><img src="./images/instagram.svg" alt="Иконка Instagram"
-                /></a>
+                <a href="https://www.instagram.com/" aria-label="Ссылка на Instagram">
+                  <object data="./images/instagram.svg" type="image/svg+xml"></object>
+                </a>
               </li>
               <li>
-                <a href="https://twitter.com/"
-                  ><img src="./images/twitter.svg" alt="Иконка Twitter"
-                /></a>
+                <a href="https://twitter.com/" aria-label="Ссылка на Twitter">
+                  <object data="./images/twitter.svg" type="image/svg+xml"></object>
+                </a>
               </li>
               <li>
-                <a href="https://facebook.com/"
-                  ><img src="./images/facebook.svg" alt="Иконка Facebook"
-                /></a>
+                <a href="https://facebook.com/" aria-label="Ссылка на Facebook">
+                  <object data="./images/facebook.svg" type="image/svg+xml"></object>
+                </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/"
-                  ><img src="./images/linkedin.svg" alt="Иконка LinkedIn"
-                /></a>
+                <a href="https://www.linkedin.com/" aria-label="Ссылка на LinkedIn">
+                  <object data="./images/linkedin.svg" type="image/svg+xml"></object>
+                </a>
               </li>
             </ul>
           </li>
@@ -130,29 +150,30 @@
             <img
               src="./images/marta-stewart.jpg"
               alt="Фотография Marta Stewart"
+              width="278"
             />
             <h3>Marta Stewart</h3>
             <p>Frontend Developer</p>
             <ul>
               <li>
-                <a href="https://www.instagram.com/"
-                  ><img src="./images/instagram.svg" alt="Иконка Instagram"
-                /></a>
+                <a href="https://www.instagram.com/" aria-label="Ссылка на Instagram">
+                  <object data="./images/instagram.svg" type="image/svg+xml"></object>
+                </a>
               </li>
               <li>
-                <a href="https://twitter.com/"
-                  ><img src="./images/twitter.svg" alt="Иконка Twitter"
-                /></a>
+                <a href="https://twitter.com/" aria-label="Ссылка на Twitter">
+                  <object data="./images/twitter.svg" type="image/svg+xml"></object>
+                </a>
               </li>
               <li>
-                <a href="https://facebook.com/"
-                  ><img src="./images/facebook.svg" alt="Иконка Facebook"
-                /></a>
+                <a href="https://facebook.com/" aria-label="Ссылка на Facebook">
+                  <object data="./images/facebook.svg" type="image/svg+xml"></object>
+                </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/"
-                  ><img src="./images/linkedin.svg" alt="Иконка LinkedIn"
-                /></a>
+                <a href="https://www.linkedin.com/" aria-label="Ссылка на LinkedIn">
+                  <object data="./images/linkedin.svg" type="image/svg+xml"></object>
+                </a>
               </li>
             </ul>
           </li>
@@ -160,56 +181,61 @@
             <img
               src="./images/robert-jakis.jpg"
               alt="Фотография Robert Jakis"
+              width="278"
             />
             <h3>Robert Jakis</h3>
             <p>Marketing</p>
             <ul>
               <li>
-                <a href="https://www.instagram.com/"
-                  ><img src="./images/instagram.svg" alt="Иконка Instagram"
-                /></a>
+                <a href="https://www.instagram.com/" aria-label="Ссылка на Instagram">
+                  <object data="./images/instagram.svg" type="image/svg+xml"></object>
+                </a>
               </li>
               <li>
-                <a href="https://twitter.com/"
-                  ><img src="./images/twitter.svg" alt="Иконка Twitter"
-                /></a>
+                <a href="https://twitter.com/" aria-label="Ссылка на Twitter">
+                  <object data="./images/twitter.svg" type="image/svg+xml"></object>
+                </a>
               </li>
               <li>
-                <a href="https://facebook.com/"
-                  ><img src="./images/facebook.svg" alt="Иконка Facebook"
-                /></a>
+                <a href="https://facebook.com/" aria-label="Ссылка на Facebook">
+                  <object data="./images/facebook.svg" type="image/svg+xml"></object>
+                </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/"
-                  ><img src="./images/linkedin.svg" alt="Иконка LinkedIn"
-                /></a>
+                <a href="https://www.linkedin.com/" aria-label="Ссылка на LinkedIn">
+                  <object data="./images/linkedin.svg" type="image/svg+xml"></object>
+                </a>
               </li>
             </ul>
           </li>
           <li>
-            <img src="./images/martin-doe.jpg" alt="Фотография Martin Doe" />
+            <img
+              src="./images/martin-doe.jpg"
+              alt="Фотография Martin Doe"
+              width="278"
+            />
             <h3>Martin Doe</h3>
             <p>UI Designer</p>
             <ul>
               <li>
-                <a href="https://www.instagram.com/"
-                  ><img src="./images/instagram.svg" alt="Иконка Instagram"
-                /></a>
+                <a href="https://www.instagram.com/" aria-label="Ссылка на Instagram">
+                  <object data="./images/instagram.svg" type="image/svg+xml"></object>
+                </a>
               </li>
               <li>
-                <a href="https://twitter.com/"
-                  ><img src="./images/twitter.svg" alt="Иконка Twitter"
-                /></a>
+                <a href="https://twitter.com/" aria-label="Ссылка на Twitter">
+                  <object data="./images/twitter.svg" type="image/svg+xml"></object>
+                </a>
               </li>
               <li>
-                <a href="https://facebook.com/"
-                  ><img src="./images/facebook.svg" alt="Иконка Facebook"
-                /></a>
+                <a href="https://facebook.com/" aria-label="Ссылка на Facebook">
+                  <object data="./images/facebook.svg" type="image/svg+xml"></object>
+                </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/"
-                  ><img src="./images/linkedin.svg" alt="Иконка LinkedIn"
-                /></a>
+                <a href="https://www.linkedin.com/" aria-label="Ссылка на LinkedIn">
+                  <object data="./images/linkedin.svg" type="image/svg+xml"></object>
+                </a>
               </li>
             </ul>
           </li>
@@ -220,34 +246,34 @@
         <h2>Постоянные клиенты</h2>
         <ul>
           <li>
-            <a href=""
-              ><img src="./images/client-1.svg" alt="Логотип компании в рамке"
-            /></a>
+            <a href="" aria-label="Компания 1">
+              <object data="./images/client-1.svg" type="image/svg+xml"></object>
+            </a>
           </li>
           <li>
-            <a href=""
-              ><img src="./images/client-2.svg" alt="Логотип компании в рамке"
-            /></a>
+            <a href="" aria-label="Компания 2">
+              <object data="./images/client-2.svg" type="image/svg+xml"></object>
+            </a>
           </li>
           <li>
-            <a href=""
-              ><img src="./images/client-3.svg" alt="Логотип компании в рамке"
-            /></a>
+            <a href="" aria-label="Компания 3">
+              <object data="./images/client-3.svg" type="image/svg+xml"></object>
+            </a>
           </li>
           <li>
-            <a href=""
-              ><img src="./images/client-4.svg" alt="Логотип компании в рамке"
-            /></a>
+            <a href="" aria-label="Компания 4">
+              <object data="./images/client-4.svg" type="image/svg+xml"></object>
+            </a>
           </li>
           <li>
-            <a href=""
-              ><img src="./images/client-5.svg" alt="Логотип компании в рамке"
-            /></a>
+            <a href="" aria-label="Компания 5">
+              <object data="./images/client-5.svg" type="image/svg+xml"></object>
+            </a>
           </li>
           <li>
-            <a href=""
-              ><img src="./images/client-6.svg" alt="Логотип компании в рамке"
-            /></a>
+            <a href="" aria-label="Компания 6">
+              <object data="./images/client-6.svg" type="image/svg+xml"></object>
+            </a>
           </li>
         </ul>
       </section>
@@ -255,40 +281,37 @@
     <footer>
       <a href="/">Web Studio</a>
       <address>
-        г. Киев, пр-т Леси Украинки, 26 <br />
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
+        г. Киев, пр-т Леси Украинки, 26<br />
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
+        <a href="tel:+380961111111">+38 096 111 11 11</a><br />
       </address>
       <p>присоединяйтесь</p>
       <ul class="down-side">
         <li>
           <a href="https://www.instagram.com/"
-            ><img src="./images/ellipse-instagram.svg" alt="Иконка Instagram"
-          /></a>
+            aria-label="Ссылка на Instagram">
+            <object data="./images/ellipse-instagram.svg" type="image/svg+xml"></object>
+          </a>
         </li>
         <li>
           <a href="https://twitter.com/"
-            ><img src="./images/ellipse-twitter.svg" alt="Иконка Twitter"
-          /></a>
+             aria-label="Ссылка на Twitter">
+            <object data="./images/ellipse-twitter.svg" type="image/svg+xml"></object>
+          </a>
         </li>
         <li>
           <a href="https://facebook.com/"
-            ><img src="./images/ellipse-facebook.svg" alt="Иконка Facebook"
-          /></a>
+             aria-label="Ссылка на Facebook">
+            <object data="./images/ellipse-facebook.svg" type="image/svg+xml"></object>
+          </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/"
-            ><img src="./images/ellipse-linkedin.svg" alt="Иконка LinkedIn"
-          /></a>
+             aria-label="Ссылка на LinkedIn">
+            <object data="./images/ellipse-linkedin.svg" type="image/svg+xml"></object>
+          </a>
         </li>
       </ul>
-      <hr class="line" />
       <p>2020 | Developed by GoIT Students</p>
     </footer>
   </body>
